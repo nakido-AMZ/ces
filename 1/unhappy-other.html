@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>其他问题</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; background: #f4f4f4; padding: 50px; }
+    h1 { font-size: 24px; margin-bottom: 30px; }
+    .form-group { margin: 20px 0; text-align: left; }
+    label { display: block; margin-bottom: 5px; }
+    input[type="text"], input[type="email"] {
+      width: 300px; padding: 10px; border: 1px solid #ccc; border-radius: 6px;
+    }
+    button {
+      padding: 15px 30px; background-color: #f44336; color: white; border: none; border-radius: 6px; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>抱歉给您带来困扰！请描述您的问题：</h1>
+  <form action="#">
+    <div class="form-group">
+      <label>姓名</label>
+      <input type="text" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label>电子邮箱</label>
+      <input type="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label>亚马逊订单编号</label>
+      <input type="text" name="order_id" required>
+    </div>
+
+    <div class="form-group">
+      <label>问题描述</label>
+      <input type="text" name="description" required>
+    </div>
+
+    <button type="submit">提交</button>
+  </form>
+</body>
+</html>
